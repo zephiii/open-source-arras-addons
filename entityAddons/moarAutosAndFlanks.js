@@ -3,14 +3,14 @@ const { smshskl } = require('../constants.js')
 const g = require('../gunvals.js')
 
 // Settings (Core)
-const enable_autos = false // Enables the expanded auto-tank tree.
+const enable_autos = true // Enables the expanded auto-tank tree.
 const enable_flanks = true // Enables the 3-array and 6-array tanks.
 
 // Settings (Autos)
-const enable_mega_autos = false // Enables Mega/Ultra-Autos
-const enable_multi_autos = false // Enables Triple/Penta-Autos
-const enable_auto_autos = false // Enables Auto-Autos
-const enable_upgrade_autos = false // Enables *-Autos based on default class tree upgrades
+const enable_mega_autos = true // Enables Mega/Ultra-Autos
+const enable_multi_autos = true // Enables Triple/Penta-Autos
+const enable_auto_autos = true // Enables Auto-Autos
+const enable_upgrade_autos = true // Enables *-Autos based on default class tree upgrades
 
 // Tier 2 Flanks
 Class.tgs_ringer = {
